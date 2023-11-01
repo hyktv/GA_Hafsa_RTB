@@ -10,25 +10,25 @@
         <Label Content="Type a Message" Canvas.Left="19" Canvas.Top="30" HorizontalAlignment="Left" VerticalAlignment="Top" Width="111"/>
         <TextBox TextWrapping="Wrap" Width="120" Canvas.Left="135" Canvas.Top="36" x:Name="txtSingleMessageDisplay" HorizontalAlignment="Left" VerticalAlignment="Center"/>
         <Button x:Name="btnDisplayMessage" Content="Display" Canvas.Left="270" Canvas.Top="36" HorizontalAlignment="Left" VerticalAlignment="Center" Width="85" Click="btnDisplayMessage_Click"/>
-        <RichTextBox Height="116" Width="274" Canvas.Left="370" Canvas.Top="29">
+        <RichTextBox Height="116" Width="274" Canvas.Left="434" Canvas.Top="30" HorizontalAlignment="Left" VerticalAlignment="Center">
             <FlowDocument>
                 <Paragraph>
                     <Run x:Name="rtbDisplay"/>
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
-        <Label Content="Message To Append" Canvas.Left="16" Canvas.Top="69" HorizontalAlignment="Left" VerticalAlignment="Center" Width="118"/>
-        <TextBox x:Name="txtAppendMessage" TextWrapping="Wrap" Width="120" Canvas.Left="135" Canvas.Top="73"/>
-        <Button x:Name="btnAppend" Content="Append Text" Canvas.Left="270" Canvas.Top="72" HorizontalAlignment="Left" VerticalAlignment="Center" Width="85" Click="btnAppend_Click"/>
-        <RichTextBox Height="129" Width="274" Canvas.Left="370" Canvas.Top="184" HorizontalAlignment="Center" VerticalAlignment="Top">
+        <Label Content="Message To Append" Canvas.Left="16" Canvas.Top="108" HorizontalAlignment="Center" VerticalAlignment="Top" Width="118"/>
+        <TextBox x:Name="txtAppendMessage" TextWrapping="Wrap" Width="120" Canvas.Left="135" Canvas.Top="112" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Button x:Name="btnAppend" Content="Append Text" Canvas.Left="270" Canvas.Top="111" HorizontalAlignment="Center" VerticalAlignment="Top" Width="85" Click="btnAppend_Click"/>
+        <RichTextBox Height="129" Width="274" Canvas.Left="434" Canvas.Top="210" HorizontalAlignment="Left" VerticalAlignment="Top">
             <FlowDocument>
                 <Paragraph>
                     <Run Name="rtbNewRtb"/>
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
-        <Button x:Name="btnAppendNewRtb" Content="Append Text" Canvas.Left="400" Canvas.Top="344" HorizontalAlignment="Left" VerticalAlignment="Top" Width="95" Click="btnAppendNewRtb_Click"/>
-        <Button x:Name="btnClear" Content="Clear Both RTB's" Canvas.Left="517" Canvas.Top="344" HorizontalAlignment="Left" VerticalAlignment="Top" Width="108" Click="btnClear_Click"/>
+        <Button x:Name="btnAppendNewRtb" Content="Append Text" Canvas.Left="459" Canvas.Top="369" HorizontalAlignment="Left" VerticalAlignment="Center" Width="95" Click="btnAppendNewRtb_Click"/>
+        <Button x:Name="btnClear" Content="Clear Both RTB's" Canvas.Left="583" Canvas.Top="369" HorizontalAlignment="Left" VerticalAlignment="Center" Width="108" Click="btnClear_Click"/>
 
 
     </Canvas>

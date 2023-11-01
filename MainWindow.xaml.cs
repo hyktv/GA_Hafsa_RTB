@@ -67,7 +67,10 @@ namespace GA_Hafsa_RTB
         {
             rtbNewRtb.Text = "";
             rtbDisplay.Text = "";
-        }
+
+        } //btnClear_CLick
+
+
     } //class
 
 
